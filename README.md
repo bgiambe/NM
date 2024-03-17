@@ -1,6 +1,6 @@
 # NM
 This is the Matlab routine used for the normal mode decomposition analysis in Giambenedetti et al., 2023 [1].
-The code performs a normal mode decomposition on the assumption of Quasi-Geostrophic (Q-G) dynamics on the vertical profiles of buoyancy frequency (N^2), calculated directly from in-situ CTD data. This is a reworking of a code originally created by Rogério Chumbinho (Last modified October 1994) [2], passed by Vincenzo Artale and Salvatore Marullo [3]. Modal shapes depend strongly on the amount of filtering applied to the profile. Best performances were obtained using a Savinsky-Golay filter of order 1 and frame length 15. 
+The code performs a normal mode decomposition on the assumption of Quasi-Geostrophic (Q-G) dynamics on the vertical profiles of buoyancy frequency (N^2), calculated directly from in-situ CTD data. This is an improved version of a code originally created by Rogério Chumbinho (Last modified October 1994) [2], passed by Vincenzo Artale and Salvatore Marullo [3]. Modal shapes depend strongly on the amount of filtering applied to the profile. Best performances were obtained using a Savinsky-Golay filter of order 1 and frame length 15. 
 
 Dependencies: 
  - TEOS-10 functions	 http://www.teos-10.org/
